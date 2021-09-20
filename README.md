@@ -1,2 +1,0 @@
-# JOUR352
-Repo for JOUR 352
