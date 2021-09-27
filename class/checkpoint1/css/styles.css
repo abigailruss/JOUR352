@@ -5,9 +5,9 @@ body{
 
     /* new div for th text-align: center; */
 h1 {
-    color: #33485e;
+    color: #054b95;
     text-align: center;
-    font-style: Simplifica; Century Gothic; Ariel
+    font-family: Open-Sans, Lato, Roboto, sans-serif;
 }
 
 img {
