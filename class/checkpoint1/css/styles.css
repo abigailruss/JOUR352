@@ -1,8 +1,34 @@
+body{
+    margin-right:50px;
+    margin-left: 50px;
+}
+
+    /* new div for th text-align: center; */
 h1 {
     color: #33485e;
+    text-align: center;
+    font-style: Simplifica; Century Gothic; Ariel
 }
 
 img {
     max-width: 600px;
     width: 100%;
 }
+span.highlight {
+    background-color: #0000FF;
+}
+div.experiences {
+
+}
+h2{
+    color: white;
+    background-color: lightblue;
+    /* padding: top right bottom left */
+
+    /* font
+    size */
+}
+
+/* div Graphics border weight on the bottom line  */
+/* -- class class id */
+/* image-position in surrounding text pg 101 float right */
