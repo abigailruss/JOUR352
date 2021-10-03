@@ -13,7 +13,7 @@ body{
     margin-bottom: 15px;
 }
 .topper p{
-    font-weight: bold;
+    font-weight: lighter;
     font-style: italic;
     color: grey;
     border-bottom: 1px solid gray;
@@ -34,27 +34,55 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     text-transform: uppercase;
+    padding-left: 10px;
 }
-
-
+.img-p{
+    overflow: auto;
+}
 img {
-    max-width: 600px;
+    max-width: 200px;
     width: 100%;
+    float: right;
+    margin-left:15px;
 }
 span.highlight {
     background-color: #0000FF;
+    color: white
 }
-div.experiences {
+span.italic {
+    font-style: italic;
+}
+.experiences p{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+#last-experience{
+    border-bottom: none;
+}
+.experiences h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin: 4px;
 
 }
-.expereice h3{
-    
+.experiences h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin: 4px;
 }
+.experiences h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 4px;
+}
+
 h2{
     color: white;
     background-color: lightblue;
     padding: 5px 3px;
     font-family: sans-serif;
+    font-weight: normal;
 
     /* font
     size */
