@@ -1,20 +1,24 @@
 /* font-family: "Raleway", sans-serif; */
 
+body{
+    width: 60%;
+    margin: 80px auto;
+    font-family: 'Raleway', sans-serif;
+}
 .p-header{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: #abafb0;
-    width: 50%;
+    width: 80%;
     margin: auto;
     text-transform: uppercase;
     font-weight: bold;
-
 }
 .history h2{
     text-align: center;
     color: #80aaad;
     text-transform: uppercase;
-    width: 80%;
+    width: 90%;
     margin: auto;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
@@ -28,9 +32,10 @@
 .history{
     color: #80aaad;
     text-align: center;
-    width: 50%;
+    width: 90%;
     margin: auto;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
 
 }
 
@@ -43,11 +48,58 @@ h3{
     color:#800020;
     font-family: 'Raleway', sans-serif;
     border-bottom: 2px dotted #abafb0;
+    width:50%;
     padding: 0 0 10px 0;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-weight: bold;
 
 }
 h5{
     font-family: 'Raleway', sans-serif;
+}
+.descriptions{
+    font-family: 'Raleway', sans-serif;
+}
+h6{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#800020;
+    font-size: 1.1em;
+}
+ul{
+    list-style-type: square;
+}
+.special{
+    border: 2px dotted #abafb0;;
+    padding: 0 12px 0 12px;
+    background-color: #b8d9d3;
+}
+.price{
+    font-style: italic;
+}
+.options{
+    font-style: italic;
+    color: #abafb0;
+}
+.sides h5{
+    font-weight: normal;
+    padding: 3px;
+    margin: auto 0 0 25px;
+}
+.bottom img{
+    float: right;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding right:15px;
+}
+.bottom p{
+    color: #80aaad;
+}
+.bold-black {
+    font-weight: bold;
+    color: black;
+}
+.redsite{
+    color: #800020;
 }
