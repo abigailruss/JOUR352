@@ -12,8 +12,13 @@ img:first-of-type {
 	display: flex;
 	flex-direction: column;
 }
-
+@media only screen and (min-width:600px) {
+	.container{
+		flex-direction: row;
+	}
+}
 .container div {
+	flex-grow: 1;
 }
 
 /* Reorder the divs to match the picture */

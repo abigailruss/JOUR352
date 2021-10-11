@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    min-height: 300px;
+}
+.flex-container div{
+    border: 1px solid black;
+}
+.light-pink div{
+    background-color: #f5c6d6;
+    flex-grow: 1;
+}
+.dark-pink  div{
+    background-color:#be2e86;
+    flex-grow: 1;
+}
+.blue div{
+    background-color: #85cfd8;
+    flex-grow: 2;
+}
+.r4b1{
+    background-color: #8dc63f;
+    flex-grow: 3; /*or flex basis of 75% */
+}
+.r4b2{
+    background-color: coral;
+    flex-grow: 1;
+}
