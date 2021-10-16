@@ -1,6 +1,6 @@
 body {
-	max-width: 800px;
-	margin: 20px auto;
+/*	max-width: 800px;
+	margin: 20px auto;*/
 	font-family: "Noto Serif", serif;
 
 	/*
@@ -8,6 +8,21 @@ body {
     font-family: 'Montserrat', sans-serif;
     */
 }
+.flex_container{
+	display: flex;
+}
+.intro{
+	flex-grow: 1;
+	background-color: green;
+	max-width: 400px
+	margin:5px
+}
+.main-content {
+	width: 400px
+	flex-grow: 10;
+	margin: 5px
+}
+
 
 #name {
 	border-bottom: 1px solid #33485e;
@@ -54,10 +69,7 @@ h1 {
 	margin: 0 auto;
 }
 
-.main-content {
-	width: 80%;
-	margin: 0 auto;
-}
+
 
 .highlight {
 	background-color: #33485e;
@@ -105,9 +117,9 @@ h5 {
 }
 
 img {
-	max-width: 600px;
-	width: 33%;
-	float: right;
+	max-width: 400px;
+/*	width: 33%;*/
+
 
 	/* To fix alignment */
 	margin-top: 20px;
