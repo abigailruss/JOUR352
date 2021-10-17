@@ -1,6 +1,5 @@
 body {
-/*	max-width: 800px;
-	margin: 20px auto;*/
+	margin: 20px;
 	font-family: "Noto Serif", serif;
 
 	/*
@@ -10,19 +9,24 @@ body {
 }
 .flex_container{
 	display: flex;
+	flex-wrap: wrap;
 }
 .intro{
 	flex-grow: 1;
-	background-color: green;
-	max-width: 400px
-	margin:5px
+	min-width: 400px;
+	min-height: 10px;
+	margin:5px;
 }
 .main-content {
-	width: 400px
+	min-width: 400px;
+	min-height: 10px;
 	flex-grow: 10;
-	margin: 5px
+	margin: 5px;
 }
-
+.centered-image{
+	display: flex;
+	justify-content: center;
+}
 
 #name {
 	border-bottom: 1px solid #33485e;
@@ -80,6 +84,8 @@ h1 {
 
 .introduction {
 	line-height: 1.6;
+	max-width: 600px;
+	margin: auto;
 }
 
 h2 {
@@ -103,7 +109,6 @@ h5 {
 
 .container-introduction {
 	/* CLEARFIX HACK */
-	overflow: auto;
 }
 
 .container-experience h3,
@@ -114,6 +119,7 @@ h5 {
 
 .container-experience p {
 	font-size: 14px;
+	max-width: 600px;
 }
 
 img {
@@ -123,4 +129,7 @@ img {
 
 	/* To fix alignment */
 	margin-top: 20px;
+}
+.container-education-skills ul{
+	max-width: 600px;
 }
