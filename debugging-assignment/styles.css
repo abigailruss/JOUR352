@@ -21,10 +21,6 @@ p {
     line-height: 1.5;
     font-family: 'Nanum Gothic', sans-serif;
 }
-.btn{
-    align-items: center;
-    background-color: pink;
-}
 
 h1, h2, h3 h4, h5, h6 {
     font-family: 'Zen Antique Soft', serif;
@@ -100,7 +96,7 @@ ul li {
     margin-bottom: 50px;
 }
 
-.button a {
+.btn a {
     color: white;
 }
 
