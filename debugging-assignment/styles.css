@@ -8,23 +8,27 @@ body {
     margin: 75px auto;
 }
 
-/* 3 */
+/* 5 */
 
 /* media query */
-@media screen and (max-width: 750) {
+@media-only screen and (max-width: 750px;) {
     body {
         width: 90%;
         margin: 25px auto;
     }
 }
-img .logo{
+.logo{
     align-content: center;
-    width: 40%;
+    width: 600px;
 }
 
 p {
     line-height: 1.5;
     font-family: 'Nanum Gothic', sans-serif;
+}
+.btn{
+    align-items: center;
+    background-color: pink;
 }
 
 h1, h2, h3 h4, h5, h6 {
@@ -47,7 +51,7 @@ h5 {
 
 a {
     color: #2cc1c0;
-
+}
 
 a:hover {
     color: #fe7095;
