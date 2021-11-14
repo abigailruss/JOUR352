@@ -8,18 +8,13 @@ body {
     margin: 75px auto;
 }
 
-/* 5 */
 
 /* media query */
-@media-only screen and (max-width: 750px;) {
+@media only screen and (max-width: 750px) {
     body {
         width: 90%;
         margin: 25px auto;
     }
-}
-.logo{
-    align-content: center;
-    width: 600px;
 }
 
 p {
@@ -81,7 +76,7 @@ ul li {
 }
 
 /* START CONTENT CSS */
-.topper.logo {
+.topper .logo {
     width: 350px;
     margin: 35px auto 50px;
     display: block;
@@ -100,7 +95,7 @@ ul li {
     padding: 12px 15px;
     color: white;
     display: inline-block;
-    border radius: 2px;
+    border-radius: 2px;
     margin-top: 0;
     margin-bottom: 50px;
 }
