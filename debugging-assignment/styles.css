@@ -106,9 +106,9 @@ ul li {
 }
 
 #recipe {
-    background-color: rgb(231, 231, 231);
+    background-color: #E7E7E7;
     padding: 15px 30px;
-    border: 1x solid rgb(196, 196, 196);
+    border: 1x solid #C4C4C4;
     margin-top: 50px;
 }
 
